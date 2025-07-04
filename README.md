@@ -1,6 +1,6 @@
-# CrowdAgent: A Multi-Agent System for Managed Multi-Source Annotation
+# CrowdAgent: Multi-Agent Managed Multi-Source Annotation System
 
-This repository contains the official implementation for the system demo paper, **"CrowdAgent: Multi-Agent Managed Multi-Source Annotation"**.
+This repository contains the official implementation for the system demo paper, **"CrowdAgent: Multi-Agent Managed Multi-Source Annotation System"**.
 
 **Note:** This project is currently under development. The codebase and documentation are subject to change.
 
