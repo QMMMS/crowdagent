@@ -1,0 +1,11 @@
+[theme]
+
+font="serif"
+baseFontSize=20
+borderColor="#9296a8"
+
+[server]
+maxUploadSize = 10000
+
+[client]
+showSidebarNavigation = false

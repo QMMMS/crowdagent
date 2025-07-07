@@ -1,0 +1,17 @@
+.stApp > header {
+    background-color: transparent;
+}
+
+.stApp {
+    background: linear-gradient(45deg, #E0F2FE 10%, #FFFFFF 35%, #FFFFFF 65%, #E0F2FE 90%);
+    animation: my_animation 20s ease infinite;
+    background-size: 200% 200%;
+    background-attachment: fixed;
+}
+
+@keyframes my_animation {
+    0% {background-position: 0% 0%;}
+    50% {background-position: 100% 100%;}
+    100% {background-position: 0% 0%;}
+}
+

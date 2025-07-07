@@ -1,5 +1,5 @@
 import streamlit as st
-import util.read_info as read_info
+import util.crowdagent_tool as crowdagent_tool
 import pandas as pd
 import os
 
@@ -220,10 +220,10 @@ def confirm_task_configuration():
     st.session_state.custom_label_value = custom_label
     st.session_state.agent_options_value = agent_options
     if st.session_state.task_id_value == "":
-        st.session_state.task_id_value = read_info.get_task_id(st.session_state.backend_path, st.session_state.task_name_value)
+        st.session_state.task_id_value = crowdagent_tool.get_task_id(st.session_state.backend_path, st.session_state.task_name_value)
 
     if not st.session_state.task_submitted:
-        read_info.submit_task(st.session_state)
+        crowdagent_tool.submit_task(st.session_state)
         st.session_state.task_submitted = True
 
     confirm_col1, confirm_col2, confirm_col3 = st.columns(3)
@@ -235,7 +235,7 @@ def confirm_task_configuration():
 
 col1, col2, col3 = st.columns(3)
 if col2.button("Submit", key="submit", use_container_width=True):
-    flg, info = read_info.check_task_configuration(st.session_state)
+    flg, info = crowdagent_tool.check_task_configuration(st.session_state)
     if flg:
         confirm_task_configuration()
     else:
