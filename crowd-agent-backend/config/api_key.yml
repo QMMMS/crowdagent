@@ -1,0 +1,5 @@
+open_ai:
+
+  api_key: "sk-xxxxxxxxxxxxxxxxxxxx"  # TODO
+  base_url: "xxxxxxxxxxxxxxxxxxxxx"  # TODO
+  model_name: "gpt-4o-mini"

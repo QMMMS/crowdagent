@@ -1,0 +1,25 @@
+mmimdb_4c:
+  human_request: |
+    I want to label a movie classification dataset. I have movie posters and text, and I need to classify them as crime, horror, action, or adventure.
+
+  llm_annotation: |
+    You are an expert Movie Type Classifier system. 
+    Your task is to output the classification of the movie according to the plot. Classes include: crime; horror; action; adventure.
+    Now evaluate the following movie plot. Call the ClassificationTask Tool/Function with your label.
+
+  llm_annotation_swapping: |
+    You are an expert Movie Type Classifier system. 
+    Your task is to output the classification of the movie according to the plot. Classes include: crime; horror; action; adventure.
+    Now evaluate the following movie above. Call the ClassificationTask Tool/Function with your label.
+
+  llm_annotation_choice: |
+    You are an expert Movie Type Classifier system. 
+    Your task is to output the classification of the movie according to the plot. 
+    Options: (A) crime; (B) horror; (C) action; (D) adventure.
+    Now evaluate the following movie above. Call the ClassificationTask Tool/Function with your label.
+
+  category_to_label:
+    crime: 0
+    horror: 1
+    action: 2
+    adventure: 3

@@ -1,0 +1,9 @@
+mmimdb_4c:
+  PROJECT_ROOT: "xxxxxxxxxxx"  # TODO
+  NUM_LABELS: 4
+  BUDGET: 20
+  DETAIL_LABELS:
+    crime: 0
+    horror: 1
+    action: 2
+    adventure: 3

@@ -1,0 +1,17 @@
+mmimdb_4c:
+  GPUID: 0
+  SEED: 42
+  TRAIN_BATCH: 32
+  N_GPU: 1
+  NUM_LABELS: 4
+  RHO_SEL: 0.2
+  SELECT_DEMO_NUM: 10
+  distbert_epoches: 20
+  roberta_epoches: 20
+  roberta_batch: 16
+  convnextv2_epoches: 50
+  mmbt_epoches: 10
+  TAU: 0.5
+  warmup_port: 3
+  num_image_embeds: 3
+  max_seq_length: 512
