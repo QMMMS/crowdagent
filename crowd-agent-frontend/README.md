@@ -32,9 +32,9 @@ The interface uses a custom component to visualize agent interactions. You need 
 
 Navigate to the component's directory and run the build commands:
 
-Bash
 
-```
+
+```Bash
 cd components/agent_map_component/frontend
 npm install
 npm run build
@@ -48,9 +48,9 @@ Once the prerequisites are met, you can launch the Streamlit application.
 
 Execute the following command in your terminal from the `frontend` directory:
 
-Bash
 
-```
+
+```Bash
 streamlit run home.py
 ```
 
@@ -58,9 +58,9 @@ streamlit run home.py
 
 Use the provided bash script to run the application as a background process:
 
-Bash
 
-```
+
+```Bash
 bash run.bash
 ```
 
