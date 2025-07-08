@@ -532,5 +532,5 @@ if last_chunk is not None:
 
 
 mermaid_image = graph.get_graph().draw_mermaid_png()
-with open("labelchain.png", "wb") as f:
+with open("crowdagent.png", "wb") as f:
     f.write(mermaid_image)

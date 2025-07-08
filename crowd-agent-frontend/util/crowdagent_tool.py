@@ -755,7 +755,7 @@ echo 'images unzipped'
 mkdir -p {session_state.backend_path}/output/{session_state.task_id_value} 
 echo 'output dir created' 
 cd {session_state.backend_path}
-nohup python labelchain.py --task {session_state.task_id_value} > {session_state.backend_path}/output/{session_state.task_id_value}/nohup.log 2>&1 & 
+nohup python crowdagent.py --task {session_state.task_id_value} > {session_state.backend_path}/output/{session_state.task_id_value}/nohup.log 2>&1 & 
 echo $! > process.pid"""
             with open(f"run.sh", "w") as f:
                 f.write(bash_code)
@@ -781,7 +781,7 @@ echo 'images unzipped' """
             bash_code += f"""mkdir -p {session_state.backend_path}/output/{session_state.task_id_value} 
 echo 'output dir created' 
 cd {session_state.backend_path}
-nohup python labelchain.py --task {session_state.task_id_value} > {session_state.backend_path}/output/{session_state.task_id_value}/nohup.log 2>&1 & 
+nohup python crowdagent.py --task {session_state.task_id_value} > {session_state.backend_path}/output/{session_state.task_id_value}/nohup.log 2>&1 & 
 echo $! > process.pid"""
             with open(f"run.sh", "w") as f:
                 f.write(bash_code)
