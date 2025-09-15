@@ -2,6 +2,8 @@
 
 This repository contains the official implementation for the system demo paper, **"CrowdAgent: Multi-Agent Managed Multi-Source Annotation System"**.
 
+Our demonstration video is available at [https://youtu.be/fcnpanaEUqo](https://youtu.be/fcnpanaEUqo).
+
 **Note:** This project is currently under development. The codebase and documentation are subject to change.
 
 ------
