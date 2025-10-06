@@ -14,6 +14,8 @@ High-quality annotated data is a cornerstone of modern Natural Language Processi
 
 Inspired by real-world crowdsourcing companies, **CrowdAgent** is a multi-agent system that provides end-to-end process control over the entire data annotation lifecycle. It integrates task assignment, data annotation, and quality/cost management into a unified framework. By implementing a novel methodology that rationally assigns tasks, CrowdAgent enables LLMs, SLMs, and human experts to work synergistically, demonstrating superior efficiency and accuracy across diverse multimodal classification tasks.
 
+![](./img/pipeline.png)
+
 This repository provides the source code for both the backend agent system and the frontend user interface.
 
 ## ✨ Key Features
@@ -25,3 +27,18 @@ This repository provides the source code for both the backend agent system and t
 - **Dynamic Process Control:** Moves beyond static rules, enabling intelligent, real-time task scheduling based on cost, quality, and annotator performance.
 
 - **Interactive User Interface:** A user-friendly platform for task configuration, real-time monitoring of agent interactions, and visualization of key metrics.
+
+## 🔗 Citation 
+
+```
+@misc{qin2025crowdagentmultiagentmanagedmultisource,
+      title={CrowdAgent: Multi-Agent Managed Multi-Source Annotation System}, 
+      author={Maosheng Qin and Renyu Zhu and Mingxuan Xia and Chenkai Chen and Zhen Zhu and Minmin Lin and Junbo Zhao and Lu Xu and Changjie Fan and Runze Wu and Haobo Wang},
+      year={2025},
+      eprint={2509.14030},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2509.14030}, 
+}
+```
+
