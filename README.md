@@ -31,14 +31,31 @@ This repository provides the source code for both the backend agent system and t
 ## 🔗 Citation 
 
 ```
-@misc{qin2025crowdagentmultiagentmanagedmultisource,
-      title={CrowdAgent: Multi-Agent Managed Multi-Source Annotation System}, 
-      author={Maosheng Qin and Renyu Zhu and Mingxuan Xia and Chenkai Chen and Zhen Zhu and Minmin Lin and Junbo Zhao and Lu Xu and Changjie Fan and Runze Wu and Haobo Wang},
-      year={2025},
-      eprint={2509.14030},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2509.14030}, 
+@inproceedings{qin-etal-2025-crowdagent,
+    title = "{C}rowd{A}gent: Multi-Agent Managed Multi-Source Annotation System",
+    author = "Qin, Maosheng  and
+      Zhu, Renyu  and
+      Xia, Mingxuan  and
+      Chenchenkai  and
+      Zhu, Zhen  and
+      Lin, Minmin  and
+      Zhao, Junbo  and
+      Xu, Lu  and
+      Fan, Changjie  and
+      Wu, Runze  and
+      Wang, Haobo",
+    editor = {Habernal, Ivan  and
+      Schulam, Peter  and
+      Tiedemann, J{\"o}rg},
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-demos.72/",
+    pages = "925--942",
+    ISBN = "979-8-89176-334-0",
+    abstract = "High-quality annotated data is a cornerstone of modern Natural Language Processing (NLP). While recent methods begin to leverage diverse annotation sources{---}including Large Language Models (LLMs), Small Language Models (SLMs), and human experts{---}they often focus narrowly on the labeling step itself. A critical gap remains in the holistic process control required to manage these sources dynamically, addressing complex scheduling and quality-cost trade-offs in a unified manner. Inspired by real-world crowdsourcing companies, we introduce CrowdAgent, a multi-agent system that provides end-to-end process control by integrating task assignment, data annotation, and quality/cost management. It implements a novel methodology that rationally assigns tasks, enabling LLMs, SLMs, and human experts to advance synergistically in a collaborative annotation workflow. We demonstrate the effectiveness of CrowdAgent through extensive experiments on six diverse multimodal classification tasks. The source code and video demo are available at https://github.com/QMMMS/CrowdAgent."
 }
 ```
 
